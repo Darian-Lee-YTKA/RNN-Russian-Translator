@@ -1,7 +1,7 @@
 # RNN-Russian-Translator
 Machine translation for simple Russian sentences. 
 ## Demo:
-<img src="demoTranslateApp.gif" width=400>
+<img src="demoTranslateApp.gif" width=350>
 
 (sentences in demo are novel for the translator) 
 
