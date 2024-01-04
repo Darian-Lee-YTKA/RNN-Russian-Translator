@@ -13,4 +13,4 @@ I used an RNN encoder decoder model with LSTM. The final model has 400 units and
 ## About App: 
 Using my downloaded trained model and tokenizers, I made a [python program](pythonAPI_to_swift.py) on my local computer for accepting user input and generating a translation. The program then uses fast API to connect to an [iOS app in Swift](SwiftCode/translationVC.swift) , allowing the user to enter text and the translating that text using my model when the user presses translate. 
 ## Evaluation:
-The BLEU score for my model using maximum 2 n-grams was 0.596. Upon visual inspection of the translation of the test set, most appear to be valid translations, however, some contain major mistakes. Use with novel sentences outside of the training and testing data has mixed results. 
+The BLEU score for my model using maximum 2 n-grams was 0.596. Upon visual inspection of the translation of the test set, most appear to be valid translations, however, some contain major mistakes. Use with novel sentences outside of the training and testing data yields mixed results. 
