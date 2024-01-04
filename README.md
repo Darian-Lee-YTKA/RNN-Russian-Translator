@@ -1,5 +1,5 @@
 # RNN-Russian-Translator
-Machine translation for simple Russian sentences using RNN. 
+Machine translation for simple Russian sentences using RNN implemented into an iOS app to showcase functionality.
 ## Demo:
 <img src="demoTranslateApp.gif" width=350>
 
